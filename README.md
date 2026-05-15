@@ -4,10 +4,10 @@
 
 ### *"Donde la ubicación se convierte en estrategia"*
 
-![GitHub repo size](https://img.shields.io/github/repo-size/tu-usuario/geonexus?color=00C853&style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/tu-usuario/geonexus?color=00C853&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/tu-usuario/geonexus?color=00C853&style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/tu-usuario/geonexus?color=00C853&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/AlgoBea/geonexus?color=00C853&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/AlgoBea/geonexus?color=00C853&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/AlgoBea/geonexus?color=00C853&style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/AlgoBea/geonexus?color=00C853&style=for-the-badge)
 
 ---
 
@@ -25,9 +25,9 @@
 
 ```mermaid
 graph LR
-    A[🎯 Investigación] --> B[💻 Desarrollo]
-    B --> C[📊 Análisis]
-    C --> D[🚀 Implementación]
+    A[Investigación] --> B[Desarrollo]
+    B --> C[Análisis]
+    C --> D[Implementación]
     D --> A
     style A fill:#00C853,stroke:#00796B,color:#fff
     style B fill:#2196F3,stroke:#1565C0,color:#fff
@@ -48,24 +48,16 @@ graph LR
     <th>📧 Contacto</th>
   </tr>
   <tr>
-    <td></b>Aponte Beatriz</b></td>
-    <td>🏆 Líder de Equipo</td>
-    <td><a href="beatriz-aponte@outlook.com">📬</a></td>
+    <td><b>Aponte Beatriz</b></td>
   </tr>
   <tr>
     <td><b>Rodríguez Samuel</b></td>
-    <td>💻 Desarrollador</td>
-    <td><a href=".">📬</a></td>
   </tr>
   <tr>
     <td><b>Castellano Omar</b></td>
-    <td>💻 Desarrollador</td>
-    <td><a href=".">📬</a></td>
   </tr>
   <tr>
     <td><b>Muñoz Elishama</b></td>
-    <td>💻 Desarrollador</td>
-    <td><a href=".">📬</a></td>
   </tr>
 </table>
 
@@ -165,7 +157,7 @@ graph LR
 
 ¿Tienes preguntas o sugerencias? ¡Contáctanos!
 
-[![Email](https://img.shields.io/badge/Email-geonexus@uneg.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:beatriz-aponte@gmail.com)
+[![Email](https://img.shields.io/badge/Email-beatriz-aponte@outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:beatriz-aponte@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-GeoNexus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlgoBea/GeoNexus)
 
 </div>
@@ -175,8 +167,6 @@ graph LR
 <div align="center">
 
 ### 🌟 "En GeoNexus, cada línea de código tiene su coordenada perfecta" 🌟
-
-![Visitors](https://img.shields.io/badge/Visitors-Welcome-00C853?style=for-the-badge)
 
 **Hecho con 💚 por el equipo GeoNexus**
 
