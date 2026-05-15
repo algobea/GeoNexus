@@ -25,9 +25,9 @@
 
 ```mermaid
 graph LR
-    A[🎯 Investigación] --> B[💻 Desarrollo]
-    B --> C[📊 Análisis]
-    C --> D[🚀 Implementación]
+    A[Investigación] --> B[Desarrollo]
+    B --> C[Análisis]
+    C --> D[Implementación]
     D --> A
     style A fill:#00C853,stroke:#00796B,color:#fff
     style B fill:#2196F3,stroke:#1565C0,color:#fff
@@ -43,19 +43,19 @@ graph LR
 
 <table align="center">
   <tr>
-    <th>👤 Integrante</th>
+    <th><b>Integrantes</b></th>
   </tr>
   <tr>
-    <td><b>Aponte Beatriz</b></td>
+    <td>Aponte Beatriz</td>
   </tr>
   <tr>
-    <td><b>Rodríguez Samuel</b></td>
+    <td>Rodríguez Samuel</td>
   </tr>
   <tr>
-    <td><b>Castellano Omar</b></td>
+    <td>Castellano Omar</td>
   </tr>
   <tr>
-    <td><b>Muñoz Elishama</b></td>
+    <td>Muñoz Elishama</td>
   </tr>
 </table>
 
