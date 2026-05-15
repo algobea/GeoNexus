@@ -49,26 +49,15 @@ graph LR
     <td>Aponte Beatriz</td>
   </tr>
   <tr>
-    <td>Rodríguez Samuel</td>
-  </tr>
-  <tr>
     <td>Castellano Omar</td>
   </tr>
   <tr>
     <td>Muñoz Elishama</td>
   </tr>
+  <tr>
+    <td>Rodríguez Samuel</td>
+  </tr>
 </table>
-
----
-
-## 📂 Estructura del Repositorio
-
-```
-📦 GeoNexus
-├── 📁 Tema1
-│   └── 📄 Informe 1 - LLM para generación de código binario en Linux x64.pdf
-└── 📄 README.md
-```
 
 ---
 
