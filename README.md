@@ -25,9 +25,9 @@
 
 ```mermaid
 graph LR
-    A[Investigación] --> B[Desarrollo]
-    B --> C[Análisis]
-    C --> D[Implementación]
+    A[🎯 Investigación] --> B[💻 Desarrollo]
+    B --> C[📊 Análisis]
+    C --> D[🚀 Implementación]
     D --> A
     style A fill:#00C853,stroke:#00796B,color:#fff
     style B fill:#2196F3,stroke:#1565C0,color:#fff
@@ -44,8 +44,6 @@ graph LR
 <table align="center">
   <tr>
     <th>👤 Integrante</th>
-    <th>🎯 Rol</th>
-    <th>📧 Contacto</th>
   </tr>
   <tr>
     <td><b>Aponte Beatriz</b></td>
@@ -68,24 +66,9 @@ graph LR
 ```
 📦 GeoNexus
 ├── 📁 Tema1
-│   └── 📄 Temas-Tech.pdf
+│   └── 📄 Informe 1 - LLM para generación de código binario en Linux x64.pdf
 └── 📄 README.md
 ```
-
----
-
-## 🎯 Objetivos del Curso
-
-<div align="center">
-
-| 🎓 Área | 📝 Descripción |
-|---------|----------------|
-| **Teoría de Lenguajes** | Análisis de gramáticas, autómatas y expresiones regulares |
-| **Diseño de Compiladores** | Fases de compilación: análisis léxico, sintáctico y semántico |
-| **Implementación** | Desarrollo de compiladores y herramientas de procesamiento de lenguajes |
-| **Optimización** | Técnicas de optimización de código intermedio y generación de código |
-
-</div>
 
 ---
 
@@ -93,13 +76,9 @@ graph LR
 
 <div align="center">
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Flex](https://img.shields.io/badge/Flex-FF6F00?style=for-the-badge&logo=gnu&logoColor=white)
-![Bison](https://img.shields.io/badge/Bison-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
-![LLVM](https://img.shields.io/badge/LLVM-262D3A?style=for-the-badge&logo=llvm&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -113,9 +92,11 @@ graph LR
 
 <div align="center">
 
-| 📅 Tema    | 📌 Tópico | 🎯 Estado | 🗓️ Fecha |
-|------------|----------------------------------------------------|---------------|----------|
-| **Tema 1** | LLM para generación de código binario en Linux x64 | ✅ Completado | 14-05-2026
+| 📅 Tema | 📌 Tópico | 🎯 Estado | 🗓️ Fecha |
+|---------|-----------|-----------|----------|
+| **Tema 1** | LLM para generación de código binario en Linux x64 | ✅ Completado | 14-05-2026 |
+
+</div>
 
 ---
 
@@ -123,7 +104,7 @@ graph LR
 <summary>💻 <b>Proyectos de Programación</b></summary>
 
 ### Programas en Desarrollo:
-- 
+- 🔄 En actualización...
 
 </details>
 
@@ -135,7 +116,7 @@ graph LR
 2. Crea una **rama** para tu evaluación (`git checkout -b evaluacion/tema`)
 3. **Commit** tus cambios (`git commit -m 'Agregar evaluación X'`)
 4. **Push** a la rama (`git push origin evaluacion/tema`)
-5. Abre un **Pull Request** para revisión del líder
+5. Abre un **Pull Request** para revisión del equipo
 
 ---
 
@@ -143,9 +124,9 @@ graph LR
 
 <div align="center">
 
-![GitHub activity](https://img.shields.io/github/commit-activity/m/tu-usuario/geonexus?color=00C853&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/tu-usuario/geonexus?color=00C853&style=flat-square)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/tu-usuario/geonexus?color=2196F3&style=flat-square)
+![GitHub activity](https://img.shields.io/github/commit-activity/m/AlgoBea/geonexus?color=00C853&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AlgoBea/geonexus?color=00C853&style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AlgoBea/geonexus?color=2196F3&style=flat-square)
 
 </div>
 
@@ -157,7 +138,7 @@ graph LR
 
 ¿Tienes preguntas o sugerencias? ¡Contáctanos!
 
-[![Email](https://img.shields.io/badge/Email-beatriz-aponte@outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:beatriz-aponte@outlook.com)
+[![Email](https://img.shields.io/badge/Email-beatriz--aponte@outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:beatriz-aponte@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-GeoNexus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlgoBea/GeoNexus)
 
 </div>
