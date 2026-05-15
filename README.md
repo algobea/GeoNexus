@@ -4,14 +4,14 @@
 
 ### *"Donde la ubicación se convierte en estrategia"*
 
-![GitHub repo size](https://img.shields.io/github/repo-size/tu-usuario/geonexus?color=00C853&style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/tu-usuario/geonexus?color=00C853&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/tu-usuario/geonexus?color=00C853&style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/tu-usuario/geonexus?color=00C853&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/AlgoBea/geonexus?color=00C853&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/AlgoBea/geonexus?color=00C853&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/AlgoBea/geonexus?color=00C853&style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/AlgoBea/geonexus?color=00C853&style=for-the-badge)
 
 ---
 
-### 📚 Lenguajes y Compiladores | 🎓 Ingeniería en Informática | 🏛️ UNEG
+### 🏛️ UNEG | 🎓 Ingeniería en Informática | 📚 Lenguajes y Compiladores 
 
 </div>
 
@@ -25,9 +25,9 @@
 
 ```mermaid
 graph LR
-    A[🎯 Investigación] --> B[💻 Desarrollo]
-    B --> C[📊 Análisis]
-    C --> D[🚀 Implementación]
+    A[Investigación] --> B[Desarrollo]
+    B --> C[Análisis]
+    C --> D[Implementación]
     D --> A
     style A fill:#00C853,stroke:#00796B,color:#fff
     style B fill:#2196F3,stroke:#1565C0,color:#fff
@@ -43,29 +43,19 @@ graph LR
 
 <table align="center">
   <tr>
-    <th>👤 Integrante</th>
-    <th>🎯 Rol</th>
-    <th>📧 Contacto</th>
+    <th><b>Integrantes</b></th>
   </tr>
   <tr>
-    <td><b>Rodríguez Samuel</b></td>
-    <td>🏆 Líder de Equipo</td>
-    <td><a href="mailto:samuel@example.com">📬</a></td>
+    <td>Aponte Beatriz</td>
   </tr>
   <tr>
-    <td><b>Aponte Beatriz</b></td>
-    <td>💻 Desarrolladora</td>
-    <td><a href="mailto:beatriz@example.com">📬</a></td>
+    <td>Rodríguez Samuel</td>
   </tr>
   <tr>
-    <td><b>Castellano Omar</b></td>
-    <td>🔍 Investigador</td>
-    <td><a href="mailto:omar@example.com">📬</a></td>
+    <td>Castellano Omar</td>
   </tr>
   <tr>
-    <td><b>Muñoz Elishama</b></td>
-    <td>📊 Analista</td>
-    <td><a href="mailto:elishama@example.com">📬</a></td>
+    <td>Muñoz Elishama</td>
   </tr>
 </table>
 
@@ -75,40 +65,10 @@ graph LR
 
 ```
 📦 GeoNexus
-├── 📁 Evaluaciones
-│   ├── 📁 Evaluacion-01
-│   │   ├── 📄 investigacion.md
-│   │   ├── 💾 codigo/
-│   │   └── 📊 presentacion.pdf
-│   ├── 📁 Evaluacion-02
-│   └── 📁 Evaluacion-03
-├── 📁 Investigaciones
-│   ├── 📄 Temas-Tech
-│   └── 📄 Compiladores
-├── 📁 Programas
-│   ├── 💻 Analizador-Lexico
-│   ├── 💻 Parser
-│   └── 💻 Generador-Codigo
-├── 📁 Recursos
-│   ├── 📚 Bibliografia
-│   └── 🔗 Enlaces-Utiles
+├── 📁 Tema1
+│   └── 📄 Informe 1 - LLM para generación de código binario en Linux x64.pdf
 └── 📄 README.md
 ```
-
----
-
-## 🎯 Objetivos del Curso
-
-<div align="center">
-
-| 🎓 Área | 📝 Descripción |
-|---------|----------------|
-| **Teoría de Lenguajes** | Análisis de gramáticas, autómatas y expresiones regulares |
-| **Diseño de Compiladores** | Fases de compilación: análisis léxico, sintáctico y semántico |
-| **Implementación** | Desarrollo de compiladores y herramientas de procesamiento de lenguajes |
-| **Optimización** | Técnicas de optimización de código intermedio y generación de código |
-
-</div>
 
 ---
 
@@ -116,13 +76,9 @@ graph LR
 
 <div align="center">
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Flex](https://img.shields.io/badge/Flex-FF6F00?style=for-the-badge&logo=gnu&logoColor=white)
-![Bison](https://img.shields.io/badge/Bison-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
-![LLVM](https://img.shields.io/badge/LLVM-262D3A?style=for-the-badge&logo=llvm&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -136,71 +92,31 @@ graph LR
 
 <div align="center">
 
-| 📅 Evaluación | 📌 Tema | 🎯 Estado | 🗓️ Fecha |
-|---------------|---------|-----------|----------|
-| **Evaluación 1** | Introducción a Compiladores | ⏳ En Progreso | TBD |
-| **Evaluación 2** | Análisis Léxico | 📝 Pendiente | TBD |
-| **Evaluación 3** | Análisis Sintáctico | 📝 Pendiente | TBD |
-| **Evaluación 4** | Análisis Semántico | 📝 Pendiente | TBD |
+| 📅 Tema | 📌 Tópico | 🎯 Estado | 🗓️ Fecha |
+|---------|-----------|-----------|----------|
+| **Tema 1** | LLM para generación de código binario en Linux x64 | ✅ Completado | 14-05-2026 |
 
 </div>
 
-**Leyenda:**
-- ✅ Completado
-- ⏳ En Progreso
-- 📝 Pendiente
-- ⚠️ Revisión
-
 ---
-
-## 📚 Temas de Investigación
-
-<details>
-<summary>🔍 <b>Temas Tech (Click para expandir)</b></summary>
-
-### Áreas de Investigación:
-- 🤖 **Inteligencia Artificial y Compiladores**
-- 🔐 **Seguridad en Lenguajes de Programación**
-- ⚡ **Optimización de Código**
-- 🌐 **Lenguajes de Dominio Específico (DSL)**
-- 🔄 **Compilación Just-In-Time (JIT)**
-- 📱 **Compiladores para Dispositivos Móviles**
-
-</details>
 
 <details>
 <summary>💻 <b>Proyectos de Programación</b></summary>
 
 ### Programas en Desarrollo:
-- 🔤 **Analizador Léxico**: Tokenización y reconocimiento de patrones
-- 🌳 **Parser**: Análisis sintáctico y construcción de árboles
-- 🧠 **Analizador Semántico**: Verificación de tipos y contexto
-- ⚙️ **Generador de Código**: Generación de código intermedio/objeto
-- 🎨 **Mini-Compilador**: Proyecto integrador completo
+- 🔄 En actualización...
 
 </details>
 
 ---
 
-## 🚀 Cómo Contribuir
+## 🚀 Reglas para Contribuir
 
 1. **Fork** este repositorio
 2. Crea una **rama** para tu evaluación (`git checkout -b evaluacion/tema`)
 3. **Commit** tus cambios (`git commit -m 'Agregar evaluación X'`)
 4. **Push** a la rama (`git push origin evaluacion/tema`)
-5. Abre un **Pull Request** para revisión del líder
-
----
-
-## 📖 Recursos Útiles
-
-<div align="center">
-
-[![Libro Dragon](https://img.shields.io/badge/📕_Libro_del_Dragón-Compilers_Principles-DC143C?style=for-the-badge)](https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools)
-[![LLVM Docs](https://img.shields.io/badge/📘_LLVM-Documentation-262D3A?style=for-the-badge)](https://llvm.org/docs/)
-[![GCC](https://img.shields.io/badge/📗_GCC-Compiler_Docs-659DBD?style=for-the-badge)](https://gcc.gnu.org/onlinedocs/)
-
-</div>
+5. Abre un **Pull Request** para revisión del equipo
 
 ---
 
@@ -208,9 +124,9 @@ graph LR
 
 <div align="center">
 
-![GitHub activity](https://img.shields.io/github/commit-activity/m/tu-usuario/geonexus?color=00C853&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/tu-usuario/geonexus?color=00C853&style=flat-square)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/tu-usuario/geonexus?color=2196F3&style=flat-square)
+![GitHub activity](https://img.shields.io/github/commit-activity/m/AlgoBea/geonexus?color=00C853&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AlgoBea/geonexus?color=00C853&style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AlgoBea/geonexus?color=2196F3&style=flat-square)
 
 </div>
 
@@ -222,8 +138,8 @@ graph LR
 
 ¿Tienes preguntas o sugerencias? ¡Contáctanos!
 
-[![Email](https://img.shields.io/badge/Email-geonexus@uneg.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:geonexus@uneg.edu)
-[![GitHub](https://img.shields.io/badge/GitHub-GeoNexus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tu-usuario/geonexus)
+[![Email](https://img.shields.io/badge/Email-beatriz--aponte@outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:beatriz-aponte@outlook.com)
+[![GitHub](https://img.shields.io/badge/GitHub-GeoNexus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlgoBea/GeoNexus)
 
 </div>
 
@@ -233,12 +149,10 @@ graph LR
 
 ### 🌟 "En GeoNexus, cada línea de código tiene su coordenada perfecta" 🌟
 
-![Visitors](https://img.shields.io/badge/Visitors-Welcome-00C853?style=for-the-badge)
-
 **Hecho con 💚 por el equipo GeoNexus**
 
 *Universidad Nacional Experimental de Guayana (UNEG)*  
-*Ingeniería en Informática | 2024-2025*
+*Ingeniería en Informática | 2026-1*
 
 ---
 
