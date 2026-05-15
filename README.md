@@ -11,7 +11,7 @@
 
 ---
 
-### 📚 Lenguajes y Compiladores | 🎓 Ingeniería en Informática | 🏛️ UNEG
+### 🏛️ UNEG | 🎓 Ingeniería en Informática | 📚 Lenguajes y Compiladores 
 
 </div>
 
@@ -48,24 +48,24 @@ graph LR
     <th>📧 Contacto</th>
   </tr>
   <tr>
-    <td><b>Rodríguez Samuel</b></td>
+    <td></b>Aponte Beatriz</b></td>
     <td>🏆 Líder de Equipo</td>
-    <td><a href="mailto:samuel@example.com">📬</a></td>
+    <td><a href="beatriz-aponte@outlook.com">📬</a></td>
   </tr>
   <tr>
-    <td><b>Aponte Beatriz</b></td>
-    <td>💻 Desarrolladora</td>
-    <td><a href="mailto:beatriz@example.com">📬</a></td>
+    <td><b>Rodríguez Samuel</b></td>
+    <td>💻 Desarrollador</td>
+    <td><a href=".">📬</a></td>
   </tr>
   <tr>
     <td><b>Castellano Omar</b></td>
-    <td>🔍 Investigador</td>
-    <td><a href="mailto:omar@example.com">📬</a></td>
+    <td>💻 Desarrollador</td>
+    <td><a href=".">📬</a></td>
   </tr>
   <tr>
     <td><b>Muñoz Elishama</b></td>
-    <td>📊 Analista</td>
-    <td><a href="mailto:elishama@example.com">📬</a></td>
+    <td>💻 Desarrollador</td>
+    <td><a href=".">📬</a></td>
   </tr>
 </table>
 
@@ -75,23 +75,8 @@ graph LR
 
 ```
 📦 GeoNexus
-├── 📁 Evaluaciones
-│   ├── 📁 Evaluacion-01
-│   │   ├── 📄 investigacion.md
-│   │   ├── 💾 codigo/
-│   │   └── 📊 presentacion.pdf
-│   ├── 📁 Evaluacion-02
-│   └── 📁 Evaluacion-03
-├── 📁 Investigaciones
-│   ├── 📄 Temas-Tech
-│   └── 📄 Compiladores
-├── 📁 Programas
-│   ├── 💻 Analizador-Lexico
-│   ├── 💻 Parser
-│   └── 💻 Generador-Codigo
-├── 📁 Recursos
-│   ├── 📚 Bibliografia
-│   └── 🔗 Enlaces-Utiles
+├── 📁 Tema1
+│   └── 📄 Temas-Tech.pdf
 └── 📄 README.md
 ```
 
@@ -136,71 +121,29 @@ graph LR
 
 <div align="center">
 
-| 📅 Evaluación | 📌 Tema | 🎯 Estado | 🗓️ Fecha |
-|---------------|---------|-----------|----------|
-| **Evaluación 1** | Introducción a Compiladores | ⏳ En Progreso | TBD |
-| **Evaluación 2** | Análisis Léxico | 📝 Pendiente | TBD |
-| **Evaluación 3** | Análisis Sintáctico | 📝 Pendiente | TBD |
-| **Evaluación 4** | Análisis Semántico | 📝 Pendiente | TBD |
-
-</div>
-
-**Leyenda:**
-- ✅ Completado
-- ⏳ En Progreso
-- 📝 Pendiente
-- ⚠️ Revisión
+| 📅 Tema    | 📌 Tópico | 🎯 Estado | 🗓️ Fecha |
+|------------|----------------------------------------------------|---------------|----------|
+| **Tema 1** | LLM para generación de código binario en Linux x64 | ✅ Completado | 14-05-2026
 
 ---
-
-## 📚 Temas de Investigación
-
-<details>
-<summary>🔍 <b>Temas Tech (Click para expandir)</b></summary>
-
-### Áreas de Investigación:
-- 🤖 **Inteligencia Artificial y Compiladores**
-- 🔐 **Seguridad en Lenguajes de Programación**
-- ⚡ **Optimización de Código**
-- 🌐 **Lenguajes de Dominio Específico (DSL)**
-- 🔄 **Compilación Just-In-Time (JIT)**
-- 📱 **Compiladores para Dispositivos Móviles**
-
-</details>
 
 <details>
 <summary>💻 <b>Proyectos de Programación</b></summary>
 
 ### Programas en Desarrollo:
-- 🔤 **Analizador Léxico**: Tokenización y reconocimiento de patrones
-- 🌳 **Parser**: Análisis sintáctico y construcción de árboles
-- 🧠 **Analizador Semántico**: Verificación de tipos y contexto
-- ⚙️ **Generador de Código**: Generación de código intermedio/objeto
-- 🎨 **Mini-Compilador**: Proyecto integrador completo
+- 
 
 </details>
 
 ---
 
-## 🚀 Cómo Contribuir
+## 🚀 Reglas para Contribuir
 
 1. **Fork** este repositorio
 2. Crea una **rama** para tu evaluación (`git checkout -b evaluacion/tema`)
 3. **Commit** tus cambios (`git commit -m 'Agregar evaluación X'`)
 4. **Push** a la rama (`git push origin evaluacion/tema`)
 5. Abre un **Pull Request** para revisión del líder
-
----
-
-## 📖 Recursos Útiles
-
-<div align="center">
-
-[![Libro Dragon](https://img.shields.io/badge/📕_Libro_del_Dragón-Compilers_Principles-DC143C?style=for-the-badge)](https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools)
-[![LLVM Docs](https://img.shields.io/badge/📘_LLVM-Documentation-262D3A?style=for-the-badge)](https://llvm.org/docs/)
-[![GCC](https://img.shields.io/badge/📗_GCC-Compiler_Docs-659DBD?style=for-the-badge)](https://gcc.gnu.org/onlinedocs/)
-
-</div>
 
 ---
 
@@ -222,8 +165,8 @@ graph LR
 
 ¿Tienes preguntas o sugerencias? ¡Contáctanos!
 
-[![Email](https://img.shields.io/badge/Email-geonexus@uneg.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:geonexus@uneg.edu)
-[![GitHub](https://img.shields.io/badge/GitHub-GeoNexus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tu-usuario/geonexus)
+[![Email](https://img.shields.io/badge/Email-geonexus@uneg.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:beatriz-aponte@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-GeoNexus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlgoBea/GeoNexus)
 
 </div>
 
@@ -238,7 +181,7 @@ graph LR
 **Hecho con 💚 por el equipo GeoNexus**
 
 *Universidad Nacional Experimental de Guayana (UNEG)*  
-*Ingeniería en Informática | 2024-2025*
+*Ingeniería en Informática | 2026-1*
 
 ---
 
