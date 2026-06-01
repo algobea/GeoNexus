@@ -1,0 +1,47 @@
+# ============================================================
+# LENGUAJE L - ECO-GRID CONTROL LANGUAGE
+# Escenario Operativo A: Prevención de Fuga Térmica
+#                        y Gestión de Alivio de Carga
+# ============================================================
+
+init_grid ECOGRID_CONTROL_A
+
+    # --- Declaración de variables ---
+    declarar banco_id       <- "BATERIA_01"
+    declarar umbral_temp    <- 55.0
+    declarar ciclo_max      <- 10
+    declarar ciclo_actual   <- 0
+    declarar temp_actual    <- 0.0
+    declarar peligro        <- verdadero
+
+    # --- Ciclo de monitoreo continuo ---
+    mientras peligro == verdadero ejecutar
+
+        temp_actual  <- leer_temperatura(banco_id)
+        ciclo_actual <- ciclo_actual + 1
+
+        si temp_actual > umbral_temp entonces
+
+            # Acciones de emergencia térmica
+            activar(REFRIGERACION_AUX)
+            desactivar(LINEA_SOLAR_CARGA)
+            conmutar_linea(SECTOR_INDUSTRIAL, RED_COMERCIAL)
+            emitir_alerta("ALERTA TERMICA: Temperatura critica detectada en BATERIA_01")
+
+            # Verificar si el peligro persiste tras ciclo_max iteraciones
+            si ciclo_actual >= ciclo_max entonces
+                emitir_alerta("EMERGENCIA CRITICA: Fuga termica persistente. Intervencion manual requerida.")
+                peligro <- falso
+            fin_si
+
+        sino
+
+            # Temperatura dentro del rango seguro: terminar ciclo
+            peligro <- falso
+            emitir_alerta("Sistema estabilizado. Temperatura dentro del rango seguro.")
+
+        fin_si
+
+    fin_mientras
+
+fin_grid

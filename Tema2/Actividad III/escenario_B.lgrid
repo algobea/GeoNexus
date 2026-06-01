@@ -1,0 +1,47 @@
+# ============================================================
+# LENGUAJE L - ECO-GRID CONTROL LANGUAGE
+# Escenario Operativo B: Balance de Carga
+#                        y Optimización Energética Autónoma
+# ============================================================
+
+init_grid ECOGRID_CONTROL_B
+
+    # --- Declaración de variables ---
+    declarar bateria_id       <- "BANCO_PRINCIPAL"
+    declarar carga_actual     <- 0.0
+    declarar generacion_solar <- 0.0
+    declarar demanda_interna  <- 0.0
+
+    # --- Lectura de sensores ---
+    carga_actual     <- estado_carga(bateria_id)
+    generacion_solar <- leer_flujo(PANEL_SOLAR)
+    demanda_interna  <- leer_flujo(SENSOR_CONSUMO)
+
+    # --- Caso 1: Batería óptima y excedente solar ---
+    si carga_actual > 90.0 y generacion_solar > demanda_interna entonces
+
+        conmutar_linea(RELE_EXPORTACION, RED_PUBLICA)
+        inyectar_red(generacion_solar - demanda_interna)
+        emitir_alerta("Excedente energetico inyectado a la red publica.")
+
+    sino
+
+        # --- Caso 2: Batería en nivel crítico nocturno ---
+        si carga_actual < 20.0 entonces
+
+            aislar_sector(SECTOR_MANUFACTURA)
+            aislar_sector(SECTOR_ADMINISTRATIVO)
+            conmutar_linea(SECTOR_MEDICO, MICRORED_LOCAL)
+            conmutar_linea(SECTOR_SERVIDORES, MICRORED_LOCAL)
+            emitir_alerta("BATERIA CRITICA: Sectores no esenciales aislados. Prioridad asignada a areas medicas y servidores.")
+
+        sino
+
+            # --- Caso 3: Operación normal ---
+            emitir_alerta("Sistema en operacion normal.")
+
+        fin_si
+
+    fin_si
+
+fin_grid
