@@ -127,7 +127,7 @@ graph LR
 
 ¿Tienes preguntas o sugerencias? ¡Contáctanos!
 
-[![Email](https://img.shields.io/badge/Email-beatriz--aponte@outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:beatriz-aponte@outlook.com)
+[![Email](https://img.shields.io/badge/Email-aponte.beatriz@outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:beatriz-aponte@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-GeoNexus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlgoBea/GeoNexus)
 
 </div>
