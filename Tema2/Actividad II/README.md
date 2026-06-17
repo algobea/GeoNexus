@@ -49,7 +49,7 @@ Verificar: `cargo --version`
 
 ### Compilar y ejecutar (IMPORTANTE: usar --release)
 ```bash
-cd collatz_rust
+cd rust
 cargo build --release
 ./target/release/collatz          # Linux/Mac
 target\release\collatz.exe        # Windows
