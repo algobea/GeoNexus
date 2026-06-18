@@ -47,4 +47,38 @@ def interprete_genoma(cursor, cadena, unidad=60):
         else:
             # Se reporta el error léxico. Se detiene la función para no imprimir basura
             print(f"Error de Compilación: El token '{token}' no pertenece al alfabeto Σ={{a,c,g,t}}.")
-            return   
+            return
+
+def ejecutar_demostracion():
+    """Itera sobre el diccionario de figuras, limpia la pantalla y las dibuja secuencialmente."""
+    pantalla, cursor = configurar_entorno()
+    
+    print("Iniciando motor gráfico...")
+    
+    for nombre_figura, cadena in GENOMAS_VALIDOS.items():
+        print(f"-> Analizando y dibujando: {nombre_figura} | Cadena: {cadena}")
+        
+        # Reiniciar posición y orientación de la tortuga para cada figura
+        cursor.clear()
+        cursor.penup()
+        cursor.goto(0, 0)
+        
+        # Para figuras como el árbol o la escalera, orientamos la tortuga hacia arriba
+        if nombre_figura in ["Arbol", "Escalera"]:
+            cursor.setheading(90) 
+        else:
+            cursor.setheading(0) # Apunta a la derecha por defecto
+            
+        cursor.pendown()
+        
+        # Procesar la cadena
+        interprete_genoma(cursor, cadena)
+        
+        # Pausa de 2 segundos para visualizar el resultado en la defensa
+        time.sleep(2)
+        
+    print("Ejecución finalizada con éxito.")
+    pantalla.mainloop() # Mantiene la ventana abierta al terminar
+
+if __name__ == "__main__":
+    ejecutar_demostracion()
