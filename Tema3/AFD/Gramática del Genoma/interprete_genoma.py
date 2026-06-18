@@ -21,6 +21,30 @@ def configurar_entorno():
     cursor.shape("turtle")
     cursor.color("blue")
     cursor.pensize(3)
-    cursor.speed(4) # Velocidad moderada para poder apreciar el paso a paso
     
     return pantalla, cursor
+
+def interprete_genoma(cursor, cadena, unidad=60):
+    """
+    Núcleo del intérprete: lee la cadena de caracteres (tokens)
+    y ejecuta la equivalencia geométrica de cada terminal.
+    """
+    for token in cadena:
+        if token == 'a':
+            # 'a': Avanzar dibujando
+            cursor.forward(unidad)
+        elif token == 'c':
+            # 'c': Girar 90° a la derecha
+            cursor.right(90)
+        elif token == 'g':
+            # 'g': Girar 90° a la izquierda
+            cursor.left(90)
+        elif token == 't':
+            # 't': Retroceder sin dibujar (para bifurcaciones y retornos)
+            cursor.penup()
+            cursor.backward(unidad)
+            cursor.pendown()
+        else:
+            # Se reporta el error léxico. Se detiene la función para no imprimir basura
+            print(f"Error de Compilación: El token '{token}' no pertenece al alfabeto Σ={{a,c,g,t}}.")
+            return   
